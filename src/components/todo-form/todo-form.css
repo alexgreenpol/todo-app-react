@@ -1,0 +1,28 @@
+.todo-form {
+	margin: 20px 0;
+}
+.todo-form > input {
+	height: 40px;
+	width: 250px;
+	background-color: #f7f7f7;
+	border: 1px solid #eee;
+	color: #303030;
+	border: none;
+	padding: 0 10px;
+	outline: none;
+}
+.todo-form > input::placeholder {
+	color: #303030;
+}
+.todo-form > button {
+	height: 40px;
+	width: 100px;
+	border: none;
+	background-color: #303030;
+	color: #fff;
+	cursor: pointer;
+	transition: all .5s;
+}
+.todo-form > button:hover {
+	opacity: .8;
+}

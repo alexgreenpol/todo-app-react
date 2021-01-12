@@ -1,0 +1,28 @@
+.todo-item {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.todo-item__text {
+	width: 265px;
+}
+.todo-item__text {
+	padding: 10px 0;
+}
+.todo-item .btn {
+	height: 24px;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	transition: all .2s;
+}
+.todo-item .btn:hover {
+	opacity: .8;
+}
+.todo-item .btn--edit {
+	background-color: #b9a1d3;	
+}
+.todo-item .btn--remove {
+	background-color: #ec5c7c;
+	margin-left: 5px;
+}
